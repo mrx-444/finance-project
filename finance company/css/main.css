@@ -1,0 +1,1467 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --prim-color: #f2f2f2;
+  --sec-color: #444444;
+  --other-color: #ff5757;
+  --f-font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--f-font-family);
+  background-color: var(--prim-color);
+}
+
+.mainheader {
+  background: var(--sec-color);
+  padding: 0;
+  z-index: 999;
+}
+
+.mainheader .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--other-color);
+  letter-spacing: 0.2em;
+  font-size: 1.3em;
+  padding: 0.2em;
+  margin-left: 1em;
+  margin-top: 0.4em;
+}
+
+.mainheader .logo span {
+  color: var(--prim-color);
+}
+
+.mainheader .mobile-menu {
+  padding: 0;
+}
+
+.mainheader .mobile-menu img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-top: 0.2em;
+  margin-right: 1em;
+}
+
+.mainheader .mobile-menu:hover {
+  cursor: pointer;
+}
+
+.mainheader nav {
+  display: none;
+}
+
+.mainheader .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.mainheader .mobile-exit {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+#hero-section {
+  margin: 0;
+  padding: 0;
+}
+
+#hero-section .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#hero-section .container img {
+  width: inherit;
+  height: 20em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#planning-section {
+  margin-top: -1em;
+  padding: 3em;
+}
+
+#planning-section .container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#planning-section .container h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+#planning-section .container hr {
+  margin-top: -1em;
+  margin-bottom: 1em;
+}
+
+#planning-section .container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  height: 20em;
+  margin-bottom: 2em;
+}
+
+#planning-section .container ul {
+  padding: 0;
+  margin: 0 1.2em;
+}
+
+#planning-section .container ul li {
+  padding: 1em;
+  color: white;
+  text-align: center;
+  background: var(--sec-color);
+}
+
+#planning-section .container ul li img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 125px;
+  height: 125px;
+}
+
+#planning-section .container ul li h2 {
+  margin-top: -1em;
+}
+
+#planning-section .container ul li:nth-child(even) {
+  margin: 2em 0;
+}
+
+#assets-section {
+  padding: 1em 3em;
+  background: #7f7f7f;
+  text-align: center;
+}
+
+#assets-section .container h4,
+#assets-section .container h2,
+#assets-section .container p {
+  color: #ffffff;
+}
+
+#assets-section .container h4 {
+  font-weight: normal;
+}
+
+#assets-section .container h2 {
+  margin: -0.5em 0;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+#assets-section .container p {
+  margin-top: 1.2em;
+}
+
+#assets-section .container #ulswipe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0 0.4em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  overflow: hidden;
+}
+
+#assets-section .container #ulswipe li {
+  margin: 0 0.8em;
+}
+
+#assets-section .container #ulswipe li #first-swipe,
+#assets-section .container #ulswipe li #second-swipe,
+#assets-section .container #ulswipe li #third-swipe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0.3em;
+  margin: 0;
+}
+
+#assets-section .container #ulswipe li img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10em;
+  height: 10em;
+}
+
+#assets-section .container .swipe-icon {
+  color: white;
+  margin: 0 10.5em;
+}
+
+#assets-section .container .swipe-icon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+}
+
+#assets-section .container .swipe-icon ul li {
+  padding: 0 0.1em;
+  margin: 0 0.2em;
+}
+
+#assets-section .container .swipe-icon ul li:active {
+  color: black;
+}
+
+#assets-section .container .swipe-icon ul li:first-child {
+  color: black;
+}
+
+#assets-section .container .swipe-icon:hover {
+  cursor: pointer;
+}
+
+#pricing-section {
+  text-align: center;
+  padding: 0.4em 0;
+}
+
+#pricing-section h3 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+#pricing-section p {
+  margin-top: -1em;
+}
+
+#pricing-section .container {
+  padding: 1em;
+  text-align: center;
+  background: #7f7f7f;
+}
+
+#pricing-section .container .main-ul {
+  display: block;
+  padding: 0 1em;
+}
+
+#pricing-section .container .main-ul .basic {
+  padding: 0;
+  margin: 0;
+}
+
+#pricing-section .container .main-ul .basic ul {
+  display: block;
+  padding: 0;
+}
+
+#pricing-section .container .main-ul .basic ul li {
+  padding: 0;
+  border: 1px solid black;
+}
+
+#pricing-section .container .main-ul .basic ul li h3 {
+  margin: 0;
+  padding: 1.3em 0;
+  width: inherit;
+  height: 1em;
+  color: #ffffff;
+  background: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+#pricing-section .container .main-ul .basic ul li h4 {
+  margin: 0;
+  padding: 1.3em 0;
+  width: inherit;
+  height: 1em;
+  color: black;
+  background: #f2f2f2;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#pricing-section .container .main-ul .basic ul li h4 .normal-font {
+  font-weight: normal;
+}
+
+#pricing-section .container .main-ul .basic ul li:last-child {
+  margin: 0;
+  padding: 1em 0;
+  width: inherit;
+  height: 1.5em;
+  background: #f2f2f2;
+  border-bottom: 1px solid black;
+}
+
+#pricing-section .container .main-ul .basic ul li a {
+  margin-top: 1em;
+  border: 1px solid black;
+  padding: 0.3em 1.3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e7e6e6;
+  background: black;
+}
+
+#pricing-section .container .main-ul .basic ul li a:hover {
+  cursor: pointer;
+  background: var(--prim-color);
+  color: var(--sec-color);
+  font-weight: bold;
+}
+
+#pricing-section .container .main-ul .pro {
+  padding: 0;
+  margin: 2em 0;
+}
+
+#pricing-section .container .main-ul .pro ul {
+  display: block;
+  padding: 0;
+}
+
+#pricing-section .container .main-ul .pro ul li {
+  padding: 0;
+  border: 1px solid black;
+}
+
+#pricing-section .container .main-ul .pro ul li h3 {
+  margin: 0;
+  padding: 1.3em 0;
+  width: inherit;
+  height: 1em;
+  color: #ffffff;
+  background: #f64223;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+#pricing-section .container .main-ul .pro ul li h4 {
+  margin: 0;
+  padding: 1.3em 0;
+  width: inherit;
+  height: 1em;
+  color: black;
+  background: #f2f2f2;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#pricing-section .container .main-ul .pro ul li h4 .normal-font {
+  font-weight: normal;
+}
+
+#pricing-section .container .main-ul .pro ul li:last-child {
+  margin: 0;
+  padding: 1em 0;
+  width: inherit;
+  height: 1.5em;
+  background: #f2f2f2;
+  border-bottom: 1px solid black;
+}
+
+#pricing-section .container .main-ul .pro ul li a {
+  margin-top: 1em;
+  border: 1px solid black;
+  padding: 0.3em 1.3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  background: #f64223;
+}
+
+#pricing-section .container .main-ul .pro ul li a:hover {
+  cursor: pointer;
+  background: var(--sec-color);
+  color: var(--prim-color);
+  font-weight: bold;
+}
+
+#pricing-section .container .main-ul .premium {
+  padding: 0;
+  margin: 0;
+}
+
+#pricing-section .container .main-ul .premium ul {
+  display: block;
+  padding: 0;
+}
+
+#pricing-section .container .main-ul .premium ul li {
+  padding: 0;
+  border: 1px solid black;
+}
+
+#pricing-section .container .main-ul .premium ul li h3 {
+  margin: 0;
+  padding: 1.3em 0;
+  width: inherit;
+  height: 1em;
+  color: #ffffff;
+  background: #007af3;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+#pricing-section .container .main-ul .premium ul li h4 {
+  margin: 0;
+  padding: 1.3em 0;
+  width: inherit;
+  height: 1em;
+  color: black;
+  background: #f2f2f2;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#pricing-section .container .main-ul .premium ul li h4 .normal-font {
+  font-weight: normal;
+}
+
+#pricing-section .container .main-ul .premium ul li:last-child {
+  margin: 0;
+  padding: 1em 0;
+  width: inherit;
+  height: 1.5em;
+  background: #f2f2f2;
+  border-bottom: 1px solid black;
+}
+
+#pricing-section .container .main-ul .premium ul li a {
+  margin-top: 1em;
+  border: 1px solid black;
+  padding: 0.3em 1.3em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background: #007af3;
+}
+
+#pricing-section .container .main-ul .premium ul li a:hover {
+  cursor: pointer;
+  background: var(--prim-color);
+  color: #007af3;
+  font-weight: bold;
+}
+
+#team-section {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#team-section .container h3 {
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#team-section .container p {
+  margin-top: -1em;
+}
+
+#team-section .container ul {
+  margin-top: 7em;
+  padding: 0 3em;
+}
+
+#team-section .container ul li {
+  padding-bottom: 1.5em;
+  background: #ffffff;
+  border: 2px solid black;
+}
+
+#team-section .container ul li img {
+  border: 1px solid black;
+  border-radius: 5em;
+  margin-top: -5em;
+  width: 10em;
+  height: 10em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#team-section .container ul li h3 {
+  margin-top: -0;
+}
+
+#team-section .container ul li h4 {
+  margin-top: -1em;
+}
+
+#team-section .container ul li p {
+  padding: 0 2em;
+  text-align: center;
+}
+
+#team-section .container ul li a {
+  background: #e7e6e6;
+  padding: 0.3em 2em;
+  margin: 0;
+  border: 1px solid black;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+#team-section .container ul li a:hover {
+  color: var(--prim-color);
+  background: var(--sec-color);
+}
+
+#team-section .container ul li:nth-child(even) {
+  margin: 8em 0;
+}
+
+#contact-section {
+  margin-top: -4em;
+  padding: 0;
+  background: #7f7f7f;
+  text-align: center;
+}
+
+#contact-section .container {
+  padding: 1em;
+}
+
+#contact-section .container h2 {
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+  color: white;
+}
+
+#contact-section .container h3 {
+  padding: 0 1em;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-weight: normal;
+  color: white;
+}
+
+#contact-section .container hr {
+  margin: 0 1.2em;
+  margin-top: -1.2em;
+}
+
+#contact-section .container p {
+  margin-top: 0.5em;
+  color: white;
+  padding: 0 1em;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+#contact-section .container .contact-cti {
+  margin: 0 1.6em;
+  margin-bottom: 1.6em;
+  padding: 1em 1.5em;
+  background: #e7e6e6;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+#contact-section .container .contact-cti label {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  text-align: left;
+}
+
+#contact-section .container .contact-cti input,
+#contact-section .container .contact-cti textarea {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-radius: 0.3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#contact-section .container .contact-cti .send-message {
+  background-color: #007af3;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  border: none;
+  border-radius: 5em;
+  display: block;
+  padding: 0.8em 2em;
+  width: unset;
+  cursor: pointer;
+}
+
+#kang-section {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+#kang-section .left-col {
+  background: #bfbfbf;
+  width: 50%;
+  font-weight: normal;
+}
+
+#kang-section .left-col ul {
+  margin: 0;
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#kang-section .left-col ul li {
+  display: block;
+  margin: 0 0.5em;
+}
+
+#kang-section .left-col ul li h2 {
+  text-align: left;
+  font-size: 1.1em;
+}
+
+#kang-section .left-col ul li p {
+  text-align: left;
+  margin-top: -1em;
+}
+
+#kang-section .right-col {
+  width: 50%;
+  background: var(--sec-color);
+  color: var(--prim-color);
+  font-weight: normal;
+}
+
+#kang-section .right-col ul {
+  margin: 0;
+  padding: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#kang-section .right-col ul li {
+  display: block;
+  margin: 0 0.5em;
+}
+
+#kang-section .right-col ul li h2 {
+  text-align: left;
+  font-size: 1.1em;
+}
+
+#kang-section .right-col ul li p {
+  text-align: left;
+  margin-top: -1em;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer .top-container {
+  text-align: center;
+}
+
+footer .top-container h2 {
+  font-weight: normal;
+  font-size: 1.4em;
+}
+
+footer .top-container p {
+  margin-top: -1em;
+}
+
+footer .top-container hr {
+  margin: 0 2em;
+  margin-top: -1em;
+}
+
+footer .top-container a {
+  text-decoration: none;
+  background: var(--sec-color);
+  color: var(--prim-color);
+  padding: 0.3em 1em;
+  border-radius: 0.2em;
+  display: block;
+  margin: -2.2em 78% 0 0;
+}
+
+footer .top-container a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer .top-container img {
+  padding: 0 0.1em;
+  margin-top: 1.2em;
+  width: 25px;
+  height: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .top-container img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer .bot-container {
+  margin: 0 1em;
+  padding: 0.5em 1em 0 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .bot-container a {
+  text-decoration: none;
+  text-align: left;
+  color: black;
+  margin: 0 0.4em;
+  font-size: 0.7em;
+  padding: 0.4em 0;
+}
+
+footer .bot-container p {
+  margin: 0.5em 0 0 4.7em;
+  font-size: 0.7em;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 50%;
+  right: 0;
+  top: 0;
+  background: #20272e;
+  height: 100vh;
+  padding: 1em;
+}
+
+nav .primary-nav {
+  margin-top: 4em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.5em;
+  font-size: 1.1em;
+  text-align: right;
+}
+
+nav li a:hover {
+  font-weight: 900;
+  margin-right: 0.3em;
+}
+
+.mobile-exit {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 0.3em;
+  border: 2px solid var(--prim-color);
+  border-radius: 0.5em;
+  padding: 0.3em 1em;
+  float: right;
+  margin: -0.3em 0.5em;
+}
+
+.mobile-exit:hover {
+  border: 2px solid var(--prim-color);
+  background: var(--prim-color);
+  color: var(--sec-color);
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 560px) {
+  #assets-section .container #ulswipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0 0.8em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    overflow: hidden;
+  }
+  #assets-section .container #ulswipe li {
+    margin: 0 0.5em;
+  }
+  #assets-section .container #ulswipe li #first-swipe,
+  #assets-section .container #ulswipe li #second-swipe,
+  #assets-section .container #ulswipe li #third-swipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0.4em;
+    margin: 0.3em;
+  }
+  #assets-section .container #ulswipe li img {
+    width: 12em;
+    height: 12em;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  #assets-section .container #ulswipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0 1.5em 0 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    overflow: hidden;
+  }
+  #assets-section .container #ulswipe li {
+    margin: 0 1em;
+  }
+  #assets-section .container #ulswipe li #first-swipe,
+  #assets-section .container #ulswipe li #second-swipe,
+  #assets-section .container #ulswipe li #third-swipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0.4em;
+    margin: 0.3em;
+  }
+  #assets-section .container #ulswipe li img {
+    width: 13.2em;
+    height: 13.2em;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .mobile-menu,
+  .mobile-exit {
+    display: none;
+  }
+  .mainheader .container .logo {
+    margin: 0.5em 0 0.5em 1.5em;
+  }
+  .mainheader nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    background: none;
+    position: unset;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .mainheader nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 1em 0;
+  }
+  .mainheader nav a {
+    color: white;
+    font-size: 1em;
+    padding: 0 1em;
+  }
+  .mainheader nav a:hover {
+    margin-right: 0;
+    padding-top: 0.1em;
+  }
+  #hero-section .container img {
+    height: 30em;
+  }
+  #planning-section .container img {
+    height: 30em;
+  }
+  #planning-section .container ul {
+    padding: 1em 4em;
+  }
+  #planning-section .container ul li img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10em;
+    height: 10em;
+    border: 3px solid var(--prim-color);
+  }
+  #assets-section .container #ulswipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0 2em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    overflow: hidden;
+  }
+  #assets-section .container #ulswipe li {
+    margin: 0 1em;
+  }
+  #assets-section .container #ulswipe li #first-swipe,
+  #assets-section .container #ulswipe li #second-swipe,
+  #assets-section .container #ulswipe li #third-swipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0.4em;
+    margin: 0.3em;
+  }
+  #assets-section .container #ulswipe li img {
+    width: 15em;
+    height: 15em;
+  }
+  #pricing-section .container {
+    padding: 3em 7em;
+  }
+  #pricing-section .container .main-ul .pro {
+    margin: 4em 0;
+  }
+  #kang-section .left-col,
+  #kang-section .right-col {
+    padding: 0em;
+  }
+  #kang-section .left-col ul,
+  #kang-section .right-col ul {
+    padding: 0.5em 1.2em;
+  }
+  #kang-section .left-col ul li,
+  #kang-section .right-col ul li {
+    margin: 0 1em;
+    padding: 0 0.2em;
+  }
+  footer .top-container a {
+    padding: 0.3em 1em;
+    text-align: center;
+    margin: -2.2em 85% 0 0;
+    border-radius: 0;
+  }
+  footer .bot-container {
+    margin-left: 7em;
+    padding: 0.5em 1em;
+  }
+  footer .bot-container a {
+    margin: 0 1em;
+  }
+  footer .bot-container p {
+    margin-left: 13em;
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  #assets-section .container #ulswipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0 2.3em 0 1em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    overflow: hidden;
+  }
+  #assets-section .container #ulswipe li {
+    margin: 0 1.5em;
+  }
+  #assets-section .container #ulswipe li #first-swipe,
+  #assets-section .container #ulswipe li #second-swipe,
+  #assets-section .container #ulswipe li #third-swipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0.4em;
+    margin: 0.3em;
+  }
+  #assets-section .container #ulswipe li img {
+    width: 17em;
+    height: 17em;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  #assets-section .container #ulswipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0 3.3em 0 2em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    overflow: hidden;
+  }
+  #assets-section .container #ulswipe li {
+    margin: 0 2.2em;
+  }
+  #assets-section .container #ulswipe li #first-swipe,
+  #assets-section .container #ulswipe li #second-swipe,
+  #assets-section .container #ulswipe li #third-swipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0.4em;
+    margin: 0.3em;
+  }
+  #assets-section .container #ulswipe li img {
+    width: 18.3em;
+    height: 18.3em;
+  }
+  footer .bot-container {
+    margin-left: 9em;
+    padding: 0.5em 1em;
+  }
+  footer .bot-container a {
+    margin: 0 1.5em;
+  }
+  footer .bot-container p {
+    margin-left: 22em;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .mainheader .container .logo {
+    margin: 0.7em 0 0.7em 2.2em;
+  }
+  .mainheader nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 3.4em;
+    padding: 1.2em 0;
+  }
+  .mainheader nav a {
+    color: white;
+    font-size: 1.1em;
+    padding: 0 1em;
+  }
+  #hero-section .container img {
+    height: 35em;
+  }
+  #planning-section .container img {
+    height: 35em;
+  }
+  #planning-section .container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1em;
+  }
+  #planning-section .container ul li {
+    margin: 0 1.2em;
+    padding: 1.2em 2em;
+    width: 33%;
+  }
+  #planning-section .container ul li img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10em;
+    height: 10em;
+    border: 3px solid var(--prim-color);
+  }
+  #planning-section .container ul li h2 {
+    font-size: 1.3em;
+    letter-spacing: 0.2em;
+  }
+  #planning-section .container ul li:nth-child(even) {
+    margin: 0 1.2em;
+  }
+  #assets-section .container #ulswipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    margin: 0 5em 0 2.5em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    overflow: hidden;
+  }
+  #assets-section .container #ulswipe li {
+    margin: 0 2.5em;
+  }
+  #assets-section .container #ulswipe li #first-swipe,
+  #assets-section .container #ulswipe li #second-swipe,
+  #assets-section .container #ulswipe li #third-swipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0.4em;
+    margin: 0.3em;
+  }
+  #assets-section .container #ulswipe li img {
+    width: 20.1em;
+    height: 20.1em;
+  }
+  #pricing-section {
+    margin: 0;
+    padding: 1em;
+  }
+  #pricing-section .container {
+    padding: 1em;
+  }
+  #pricing-section .container .main-ul {
+    margin: 0;
+    padding: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #pricing-section .container .main-ul .basic,
+  #pricing-section .container .main-ul .pro,
+  #pricing-section .container .main-ul .premium {
+    width: 31%;
+    display: block;
+  }
+  #pricing-section .container .main-ul .basic ul,
+  #pricing-section .container .main-ul .pro ul,
+  #pricing-section .container .main-ul .premium ul {
+    display: block;
+  }
+  #pricing-section .container .main-ul .basic ul li h3,
+  #pricing-section .container .main-ul .pro ul li h3,
+  #pricing-section .container .main-ul .premium ul li h3 {
+    padding: 1em 4.5em;
+  }
+  #pricing-section .container .main-ul .pro {
+    margin: 0 2em;
+  }
+  #team-section {
+    margin: 0;
+    padding: 0;
+  }
+  #team-section .container ul {
+    margin-top: 5em;
+    margin-bottom: 8em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  #team-section .container ul li {
+    position: relative;
+    width: 25%;
+    margin: 0;
+    padding: 0 0.4em;
+  }
+  #team-section .container ul li img {
+    margin-top: -4em;
+    width: 7em;
+    height: 7em;
+  }
+  #team-section .container ul li h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  #team-section .container ul li h4 {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  #team-section .container ul li p {
+    margin-top: 0.5em;
+    padding: 0 1em;
+    text-align: center;
+    margin-bottom: 5em;
+  }
+  #team-section .container ul li a {
+    position: absolute;
+    margin-top: 2em;
+    bottom: 1em;
+    left: 20%;
+    right: 20%;
+    background: #e7e6e6;
+    padding: 0.3em 2em;
+  }
+  #team-section .container ul li:nth-child(even) {
+    margin: 0;
+  }
+  #team-section .container ul li:first-child {
+    border-left: 4px solid black;
+  }
+  #team-section .container ul li:last-child {
+    border-right: 4px solid black;
+  }
+  #contact-section {
+    margin: 0;
+    padding: 0;
+  }
+  #contact-section .container {
+    margin: 0 4em;
+  }
+  #contact-section .container h2 {
+    padding: 0 2em;
+  }
+  #contact-section .container .contact-cti {
+    margin: 0 5em;
+    padding: 2em;
+  }
+  #kang-section .left-col,
+  #kang-section .right-col {
+    padding: 0;
+  }
+  #kang-section .left-col ul,
+  #kang-section .right-col ul {
+    padding: 1em 1.2em;
+  }
+  #kang-section .left-col ul li,
+  #kang-section .right-col ul li {
+    margin: 0 2.3em;
+    padding: 0 0.2em;
+  }
+  footer .top-container a {
+    padding: 0.3em 1em;
+    text-align: center;
+    margin: -2.2em 88% 0 0;
+    border-radius: 0;
+  }
+  footer .bot-container {
+    margin-left: 11em;
+    padding: 0.5em 1em;
+  }
+  footer .bot-container a {
+    margin: 0 1.7em;
+  }
+  footer .bot-container p {
+    margin-left: 27em;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  #hero-section .container img {
+    height: 40em;
+  }
+  #planning-section .container img {
+    height: 40em;
+  }
+  #pricing-section .container {
+    margin: 0 2em;
+  }
+  #pricing-section .container .main-ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contact-section .container {
+    margin: 0 7em;
+  }
+  #contact-section .container h3 {
+    font-size: 1.5em;
+  }
+  #kang-section .left-col,
+  #kang-section .right-col {
+    padding: 0;
+  }
+  #kang-section .left-col ul,
+  #kang-section .right-col ul {
+    margin: 0 3em;
+    padding: 1em 1.5em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #kang-section .left-col ul li,
+  #kang-section .right-col ul li {
+    margin: 0 2.5em;
+    padding: 0 0.3em;
+  }
+  footer .top-container a {
+    margin: -2.2em 90% 0 0;
+  }
+  footer .bot-container p {
+    margin-left: 55em;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  #hero-section .container img {
+    height: 45em;
+  }
+  #planning-section .container img {
+    height: 45em;
+  }
+  #assets-section .container #ulswipe {
+    margin: 0 5em 0 5em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    overflow: hidden;
+  }
+  #assets-section .container #ulswipe li {
+    margin: 0 3em;
+  }
+  #assets-section .container #ulswipe li #first-swipe,
+  #assets-section .container #ulswipe li #second-swipe,
+  #assets-section .container #ulswipe li #third-swipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 0.3em;
+    margin: 0.3em;
+  }
+  #assets-section .container #ulswipe li img {
+    width: 25em;
+    height: 25em;
+  }
+  #pricing-section .container {
+    padding: 2em 1em;
+  }
+  #pricing-section .container .main-ul {
+    margin: 0;
+    padding: 2em 6.5em;
+  }
+  #pricing-section .container .main-ul .pro {
+    margin: 0 6.5em;
+  }
+  #contact-section .container .contact-cti {
+    margin: 1em 10em;
+    padding: 2em;
+  }
+  #kang-section .left-col ul li,
+  #kang-section .right-col ul li {
+    margin: 0 3em;
+    padding: 0 1em;
+  }
+  footer .top-container a {
+    margin: -2.2em 92.7% 0 0;
+  }
+  footer .bot-container p {
+    margin-left: 82em;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  #hero-section .container img {
+    height: 50em;
+  }
+  #planning-section {
+    padding: 4em 10em;
+  }
+  #planning-section .container img {
+    height: 50em;
+  }
+  #pricing-section .container {
+    margin: 1em 12em;
+  }
+  #pricing-section .container .main-ul {
+    margin: 0;
+    padding: 4em 6.5em;
+  }
+  #pricing-section .container .main-ul .pro {
+    margin: 0 6.5em;
+  }
+  #contact-section .container {
+    margin: 1em 20em;
+  }
+  #contact-section .container .contact-cti {
+    margin: 1em 10em;
+    padding: 2em;
+  }
+  footer .bot-container p {
+    margin-left: 95em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
